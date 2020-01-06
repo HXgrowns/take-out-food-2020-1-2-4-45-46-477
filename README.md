@@ -102,3 +102,9 @@
 ### 浏览器
 
 可使用浏览器打开`run-specs.html`文件运行测试
+
+
+
+## 管道图
+
+![image-20200106145204310](C:\Users\80415\AppData\Roaming\Typora\typora-user-images\image-20200106145204310.png)
