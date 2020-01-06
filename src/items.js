@@ -17,3 +17,26 @@ function loadAllItems() {
     price: 2.00
   }];
 }
+() => {
+  
+}
+
+function loadId2price() {
+  let items = loadAllItems();
+  const id2price = {};
+  items.forEach((item) => id2price[item.id] = item.price);
+  return id2price;
+}
+
+function loadId2name() {
+  let items = loadAllItems();
+  const id2name = {};
+  items.forEach((item) => id2name[item.id] = item.name);
+  return id2name;
+}
+
+module.exports = {
+  allItems: loadAllItems(),
+  id2price: loadId2price(),
+  Id2name: loadId2name()
+}
